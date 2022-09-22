@@ -58,8 +58,13 @@
   #cart {
     margin: 0 1.5rem 0 0;
   }
+  #cart{
+    border: none;
+  }
   .menuIcon{
     display: inline-block;
+    position: relative;
+    z-index: 99;
   }
   .homeText {
     width: 80%;
