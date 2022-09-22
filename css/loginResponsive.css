@@ -1,0 +1,44 @@
+@media screen and (max-width: 1150px) {
+  .leftPart{
+    clip-path: ellipse(38% 73% at 0% 16%);
+  } 
+  .loginBox{
+    right: 10%;
+  }
+  }
+  @media screen and (max-width: 885px) {
+    .leftPart{
+        display: none;
+    } 
+    .loginBox{
+      width: 380px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: block;
+    }
+    .lastContent{
+        display: block;
+    }
+    .loginImg{
+        display: none;
+    }
+    }
+    @media screen and (max-width: 760px) and(max-height: 800px){
+        .loginBox{
+            width: 350px;
+            top: 62%;
+        }
+    }
+    @media screen and (max-width: 300px){
+        .loginBox{
+            scale: 0.7;
+            left: -49px;
+            transform: translateY(-90%);
+        }
+    }
+    @media screen and (max-height: 670px) and (max-width: 400px){
+        .loginBox{
+            top: 63%;
+        }
+    }

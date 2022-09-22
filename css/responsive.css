@@ -1,0 +1,286 @@
+@media screen and (max-width: 824px) {
+  .endingServices {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mainNavMenu{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 78px;
+  }
+  .navMenu{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(185, 185, 185);
+  }
+  .dropdown{
+    display: none;
+    position: relative;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    top: 20px;
+  }
+  .navMenu:hover{
+    margin-bottom: 1rem;
+    border: none;
+  }
+  .dropdown::before, .dropdown::after{
+    display: none;
+  }
+
+  .fa-caret-down{
+    font-size: 1.5rem !important;
+    position: absolute;
+    right: 30px;
+  }
+  .dPart{
+    margin: 0;
+  }
+
+  .ending {
+    grid-template-columns: 1fr;
+  }
+  .homeImg {
+    display: none;
+  }
+  .mainNavMenu {
+    display: none;
+  }
+  .navContent {
+    justify-content: end;
+    margin-left: 0;
+  }
+  #login,
+  #cart {
+    margin: 0 1.5rem 0 0;
+  }
+  .menuIcon{
+    display: inline-block;
+  }
+  .homeText {
+    width: 80%;
+    left: 50%;
+    top: 18%;
+    transform: translateX(-50%);
+  }
+  .wpAndSprout {
+    width: 80%;
+  }
+  .boxes {
+    width: 90%;
+  }
+  .cardContainer {
+    max-width: 100%;
+  }
+  .offerHead,
+  .joinInfo {
+    width: 80%;
+    text-align: center;
+    margin: 3rem auto 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #login {
+    display: none;
+  }
+  #miniMenuLogin{
+    display: block;
+    max-width: 100%;
+  }
+  .logoAndLangMenu {
+    width: 20%;
+    display: inline-block;
+  }
+  .sponsorsImage img {
+    width: 125px;
+  }
+  .wp img {
+    width: 90px;
+  }
+  .joinInfo {
+    margin-top: 0;
+  }
+  #logoImg {
+    scale: 0.45;
+    margin-top: 0.7rem;
+  }
+  #languageMenu {
+    font-size: 1.2rem;
+    left: 180px;
+  }
+  .homeText {
+    top: 20%;
+  }
+  .homeText h1 {
+    font-size: 2.2rem;
+  }
+  .sectionTopic {
+    font-size: 2rem;
+  }
+  .mainFeatures,
+  .extras {
+    flex-direction: column;
+  }
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+    width: 100%;
+  }
+
+  .rightImgFeature {
+    flex-direction: column;
+  }
+  .leftImgFeature {
+    flex-direction: column-reverse;
+  }
+  .featureTxt,
+  .featurePart img {
+    width: 100%;
+    text-align: center;
+  }
+  .leftImgFeature .featureTxt {
+    margin-left: 0rem;
+  }
+  .featureTxt {
+    margin-bottom: 2rem;
+  }
+  .featureTxt h1 {
+    font-size: 1.8rem;
+  }
+  .offerBox {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .robotImg{
+    width: 80%;
+  }
+  .offerHead,
+  .joinInfo {
+    width: 90%;
+  }
+  .offerBox{
+    width: 90%;
+  }
+  .pricePart h1, .pricePart span{
+    font-size: 2.5rem !important;
+  }
+  .selectBtn{
+    margin: 1.5rem auto 1rem;
+  }
+  #languageMenu{
+    left: 130px;
+  }
+   #languageMenu span{
+    display: none;
+   }
+   #logoImg {
+    scale: 0.35;
+    margin-top: 0.6rem;
+  }
+  #cart span{
+    display: none;
+  }
+  .sponsors{
+    display: none;
+  }
+  .joinInfo h1{
+    margin-top: 3rem;
+  }
+  .homeText h1 {
+    font-size: 1.9rem;
+}
+.getStartedBtn {
+    font-size: 1.2rem;
+    padding: 0.7rem 2.5rem;
+    margin-top: 0rem;
+}
+.ending{
+  margin: 1rem 0;
+}
+}
+
+@media screen and (max-width: 395px) {
+  .logos{
+    max-width: 200px;
+  }
+  .endHostingerLogo{
+    width: 180px;
+  }
+  .payment,.endServiceName{
+    margin: 2rem 0.5rem;
+  }
+  .endingServices{
+    padding: 0;
+  }
+  .wpAndSprout{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .wpAndSprout .box{
+    width: 270px;
+  }
+  .wpAndSprout .box h3{
+    font-size: 1.4rem;
+  }
+  .wpAndSprout .box img{
+    scale: 1;
+    width: 190px;
+  }
+
+  .getStartedBtn{
+    width: auto;
+    font-size: 1rem;
+  }
+  .homeText h1{
+    font-size: 1.5rem;
+  }
+  .homeText p{
+    font-size: 1rem;
+  }
+  .navContent{
+    margin-right: 5px;
+  }
+  #cart {
+    margin: 0 0.5rem 0 0;
+}
+.wpAndSprout {
+  margin: 0;
+}
+.ending{
+  padding: 0.5rem;
+}
+.payment {
+  padding: 1rem 0.8rem;
+}
+#cart{
+  border: none !important;
+}
+.fiveStarImg{
+  width: 180px;
+}
+.card .content{
+  font-size: 0.9rem;
+}
+.card a{
+  font-size: 0.8rem;
+}
+.clientData img{
+  width: 90px;
+  height: 90px;
+}
+.clientData h4{
+  font-size: 1rem;
+}
+.clientData h5{
+  font-size: 0.8rem;
+}
+}
