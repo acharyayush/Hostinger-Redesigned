@@ -90,6 +90,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .wpAndSprout{
+    width: 100%;
+  }
   #login {
     display: none;
   }
