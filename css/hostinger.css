@@ -58,16 +58,6 @@ body{
 .fa-caret-down{
     transition: 0.5s;
 }
-.navMenu:hover{
-    color: rgb(194, 194, 194);
-}
-.navMenu:hover>.fa-caret-down{
-    rotate: 180deg;
-    transform: translateY(2px);
-}
-.navMenu:hover>.dropdown, .navMenu:focus>.dropdown{
-    display: block;
-}
 .navContent a{
     position: relative;
     text-decoration: none;
@@ -79,8 +69,10 @@ body{
     display: flex;
 }
 #logoImg{
-    scale: 0.6;
-    margin-top: 1rem;
+    margin: 1rem 0 0 3rem;
+}
+#logoImg img{
+    width: 200px;
 }
 .navContent{
     display: flex;
@@ -514,7 +506,7 @@ margin: 5rem 0;
     transition: 0.5s;
 }
 .fiveStarImg{
-    scale: 0.7;
+    width: 200px;
     margin: 1rem auto;
 }
 .card .content{
@@ -562,12 +554,13 @@ margin: 5rem 0;
 }
 .clientData img{
     border-radius: 50%;
-    scale: 0.5;
-    margin-left: 0;
+    margin-left: 1.5rem;
+    width: 60px;
+
 }
 .clientInfo{
     text-align: left;
-    margin-left: -1rem;
+    margin-left: 1rem;
 }
 .clientInfo h4{
     font-size: 1.25rem;
@@ -813,7 +806,7 @@ margin: 5rem 0;
     margin: 2rem;
 }
 .endingChild{
-    margin: 0 0 1rem 0;
+    margin: 0 0 2rem 0;
 }
 .endingServices{
     box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 2.6px, rgb(255, 255, 255) -3px -3px 15px;
