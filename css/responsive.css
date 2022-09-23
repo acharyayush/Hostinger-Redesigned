@@ -1,3 +1,15 @@
+@media screen and (min-width: 1200.01px){
+  .navMenu:hover>.dropdown{
+    display: block;
+}
+.navMenu:hover{
+  color: rgb(194, 194, 194);
+}
+.navMenu:hover>.fa-caret-down{
+  rotate: 180deg;
+  transform: translateY(2px);
+}
+}
 @media screen and (max-width: 824px) {
   .endingServices {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -24,10 +36,6 @@
     width: 90%;
     top: 20px;
   }
-  .navMenu:hover{
-    margin-bottom: 1rem;
-    border: none;
-  }
   .dropdown::before, .dropdown::after{
     display: none;
   }
@@ -38,7 +46,7 @@
     right: 30px;
   }
   .dPart{
-    margin: 0;
+    margin: 0 0 0.7rem;
   }
 
   .ending {
@@ -114,8 +122,10 @@
     margin-top: 0;
   }
   #logoImg {
-    scale: 0.45;
     margin-top: 0.7rem;
+  }
+  #logoImg img{
+    width: 135px;
   }
   #languageMenu {
     font-size: 1.2rem;
@@ -189,8 +199,11 @@
     display: none;
    }
    #logoImg {
-    scale: 0.35;
-    margin-top: 0.6rem;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+  }
+  #logoImg img{
+    width: 120px;
   }
   #cart span{
     display: none;
@@ -215,14 +228,23 @@
 }
 
 @media screen and (max-width: 395px) {
-  .logos{
-    max-width: 200px;
-  }
+ .logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
   .endHostingerLogo{
     width: 180px;
   }
   .payment,.endServiceName{
-    margin: 2rem 0.5rem;
+    margin: 0rem 0.5rem 2rem;
+    padding: 0 0.8rem;
+  }
+  .endServiceName:first-child{
+    margin-top: 2rem;
+  }
+  .endServiceName:nth-child(3), .endServiceName:nth-child(4){
+    margin: 0 0.5rem;
   }
   .endingServices{
     padding: 0;
@@ -266,9 +288,6 @@
 .ending{
   padding: 0.5rem;
 }
-.payment {
-  padding: 1rem 0.8rem;
-}
 #cart{
   border: none !important;
 }
@@ -276,14 +295,15 @@
   width: 180px;
 }
 .card .content{
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 .card a{
   font-size: 0.8rem;
+  margin-top: 2.5rem;
 }
 .clientData img{
-  width: 90px;
-  height: 90px;
+  width: 45px;
+  height: 45px;
 }
 .clientData h4{
   font-size: 1rem;
