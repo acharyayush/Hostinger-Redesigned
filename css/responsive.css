@@ -222,9 +222,6 @@
     padding: 0.7rem 2.5rem;
     margin-top: 0rem;
 }
-.ending{
-  margin: 1rem 0;
-}
 }
 
 @media screen and (max-width: 395px) {
@@ -235,16 +232,6 @@
  }
   .endHostingerLogo{
     width: 180px;
-  }
-  .payment,.endServiceName{
-    margin: 0rem 0.5rem 2rem;
-    padding: 0 0.8rem;
-  }
-  .endServiceName:first-child{
-    margin-top: 2rem;
-  }
-  .endServiceName:nth-child(3), .endServiceName:nth-child(4){
-    margin: 0 0.5rem;
   }
   .endingServices{
     padding: 0;
@@ -311,4 +298,19 @@
 .clientData h5{
   font-size: 0.8rem;
 }
+}
+@media screen and (max-width: 620px) {
+  .ending{
+    margin: 1rem 0;
+  }
+  .payment,.endServiceName{
+    margin: 0rem 0.5rem 2rem;
+    padding: 0 0.8rem;
+  }
+  .endServiceName:first-child{
+    margin-top: 2rem;
+  }
+  .endServiceName:nth-child(3), .endServiceName:nth-child(4){
+    margin: 0 0.5rem;
+  }
 }
