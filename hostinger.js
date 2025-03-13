@@ -67,11 +67,11 @@ let observer = new IntersectionObserver((entries, observer)=>{
     entries.forEach(entry=>{
         if(!entry.isIntersecting){
             navbar.classList.add("whiteNav");
-            hostingerLogo.setAttribute("src","../images/hostingerLogoBlack.png")
+            hostingerLogo.setAttribute("src","./images/hostingerLogoBlack.png")
         }
         else{
             navbar.classList.remove("whiteNav")
-            hostingerLogo.setAttribute("src","../images/hostingerLogoWhite.png")
+            hostingerLogo.setAttribute("src","./images/hostingerLogoWhite.png")
         }
     })
 }, options);
